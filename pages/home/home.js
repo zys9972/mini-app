@@ -136,5 +136,15 @@ Page({
         goods: goods
       })
     })
+  },
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+    return {
+      title:'跟我一起做女神吧',
+      path: 'pages/home/home',
+      imageUrl: 'http://ww1.sinaimg.cn/large/006qtd2Tgy1g4j9tfsqusj30u01sztet.jpg' // 图片 URL
+    }
   }
 })
