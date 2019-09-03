@@ -3,6 +3,7 @@ import {
   timeout
 } from './config.js'
 
+//promise网络请求的封装
 function request(options) {
   wx.showLoading({
     title: '数据加载中ing',
